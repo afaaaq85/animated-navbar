@@ -1,10 +1,6 @@
 animated Navbar using NextJS 14 & Sass <br/>
 Check it out -> https://awww-navbar.vercel.app/about <br/>
-Inpsired by: https://dennissnellenberg.com/  
-
-
-
-
+Inpsired by: https://dennissnellenberg.com/
 
 <h1 align="center">
   <br>
@@ -14,9 +10,9 @@ Inpsired by: https://dennissnellenberg.com/
 
 <h4 align="center">An animated navbar built using NextJS 14 & Sass</h4>
 
-<p align="center"> Check it out ->
-  <a href="https://awww-navbar.vercel.app/"></a>
+<p align="start">
+  <a href="https://awww-navbar.vercel.app/">Live demo</a>
 </p>
-<p align="center"> Inspired by: 
-  <a href="https://dennissnellenberg.com/"></a>
+<p align="start"> Inspired by: 
+  <a href="https://dennissnellenberg.com/">Inspired from this portfolio website</a>
 </p>
