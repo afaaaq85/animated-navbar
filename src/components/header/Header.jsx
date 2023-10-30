@@ -1,7 +1,8 @@
 'use client'
 import styles from './style.module.scss'
 import { useEffect, useState } from 'react';
-import Nav from './nav';
+// import Nav from './nav/Link/Link';
+import NavBar from './nav/NavBar'
 import { AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
@@ -17,7 +18,6 @@ export default function Home() {
   return (
     <>
     <div className={styles.main}>
-
       <div className={styles.header}>
         <div onClick={() => {setIsActive(!isActive)}} className={styles.button}>
           <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
@@ -26,7 +26,7 @@ export default function Home() {
 
     </div>
     <AnimatePresence mode="wait">
-      {isActive && <Nav />}
+      {isActive && <NavBar />}
     </AnimatePresence>
     </>
   )
